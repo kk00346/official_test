@@ -1,6 +1,6 @@
 <template>
   <div class="relative" id="app">
-    <navigation/>
+    <navigation ref="navChild"/>
     <drawer/>
     <router-view class="h-screen"></router-view>
   </div>

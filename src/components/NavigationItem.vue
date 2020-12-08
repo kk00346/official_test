@@ -1,5 +1,5 @@
 <template>
-  <a v-bind:href="url" target="_blank" class="ml-4">
+  <a v-bind:href="url" target="_blank" class="ml-0 md:ml-4 w-full py-4 md:py-0">
       <font-awesome-icon icon="user-secret" />
       <span class="ml-1">{{name}}</span>
   </a>
