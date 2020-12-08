@@ -1,8 +1,11 @@
 <template>
-  <div class="relative" id="app">
-    <navigation ref="navChild"/>
+  <div class="flex h-screen " id="app">
     <drawer/>
-    <router-view class="h-screen"></router-view>
+    <div class="flex-1 flex flex-col overflow-hidden">
+      <navigation/>
+
+      <router-view class="flex-1 overflow-x-hidden overflow-y-auto"></router-view>
+    </div>
   </div>
 </template>
 <script>

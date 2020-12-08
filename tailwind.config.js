@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {}
+    extend: {
+      backgroundImage: theme => ({
+        'home-image': "url('https://www.w3schools.com/w3images/mac.jpg')"
+      })
+    }
   },
   variants: {
     extend: {}

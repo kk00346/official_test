@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center px-4 py-2 fixed top-0 -inset-x-0 bg-white">
+  <div class="flex justify-between items-center px-4 py-2 top-0 -inset-x-0 bg-white">
     <img class="w-8 h-auto" src="@/assets/images/logo.png">
 
     <input id="memu_check" class="hidden" v-model="isOpen" type="checkbox"/>
